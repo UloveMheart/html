@@ -36,7 +36,7 @@ div
 .note
 {
     border: 2px solid transparent;
-    border-image-source:radial-gradient(white,black);
+    border-image-source:radial-gradient(white,rgb(58, 58, 58));
     border-image-slice: 2;
     border-image-width: 2;
     height: 450px;
