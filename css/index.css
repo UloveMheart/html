@@ -1,44 +1,58 @@
-body
-{
-    text-align:center;
+body {
+    text-align: center;
     background-color: rgba(243, 252, 251, 0.925);
 }
-#head
-{
+
+#head {
     height: 450px;
-    background: -webkit-linear-gradient(left, rgb(81, 214, 255) , rgb(0, 80, 255)); /* Safari 5.1 - 6.0 */
-    background: -o-linear-gradient(right, rgb(81, 214, 255), rgb(0, 80, 255)); /* Opera 11.1 - 12.0 */
-    background: -moz-linear-gradient(right, rgb(81, 214, 255) , rgb(0, 80, 255)); /* Firefox 3.6 - 15 */
-    background: linear-gradient(to right, rgb(81, 214, 255) , rgb(0, 80, 255));
+    background: -webkit-linear-gradient(left, rgb(81, 214, 255), rgb(0, 80, 255));
+    /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(right, rgb(81, 214, 255), rgb(0, 80, 255));
+    /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(right, rgb(81, 214, 255), rgb(0, 80, 255));
+    /* Firefox 3.6 - 15 */
+    background: linear-gradient(to right, rgb(81, 214, 255), rgb(0, 80, 255));
 }
-header
-{
-    background: -webkit-linear-gradient(left, rgb(81, 214, 255) , rgb(0, 80, 255)); /* Safari 5.1 - 6.0 */
-    background: -o-linear-gradient(right, rgb(81, 214, 255), rgb(0, 80, 255)); /* Opera 11.1 - 12.0 */
-    background: -moz-linear-gradient(right, rgb(81, 214, 255) , rgb(0, 80, 255)); /* Firefox 3.6 - 15 */
-    background: linear-gradient(to right, rgb(81, 214, 255) , rgb(0, 80, 255));
+
+header {
+    background: -webkit-linear-gradient(left, rgb(81, 214, 255), rgb(0, 80, 255));
+    /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(right, rgb(81, 214, 255), rgb(0, 80, 255));
+    /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(right, rgb(81, 214, 255), rgb(0, 80, 255));
+    /* Firefox 3.6 - 15 */
+    background: linear-gradient(to right, rgb(81, 214, 255), rgb(0, 80, 255));
 }
-h1
-{
-    line-height:450px;
+
+h1 {
+    line-height: 450px;
     color: white;
     font-size: 50px;
 }
-h2
-{
+
+h2 {
     color: burlywood;
     font-size: 35px;
 }
-div
-{
+
+div {
     background-color: white;
 }
-.note
-{
-    border: 2px solid transparent;
-    border-image-source:radial-gradient(white,rgb(58, 58, 58));
-    border-image-slice: 2;
-    border-image-width: 2;
+
+.note {
+    border: 1px solid transparent;
+    border-image-source: radial-gradient(white, rgb(58, 58, 58));
+    border-image-slice: 1;
+    border-image-width: 1;
     height: 450px;
+    width: 800px;
+    position:relative;left:20%;
     font-size: 25px;
+}
+
+.footer {
+    min-height: 40px;
+    padding: 20px 0;
+    border-top: 1px solid #e7eaf1;
+    text-align: center
 }
