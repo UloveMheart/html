@@ -1,17 +1,23 @@
 body {
     text-align: center;
-    background-color: rgba(243, 252, 251, 0.925);
+    background-color:#EEEEEE;
+    font-size: 100%
 }
 
-#head {
-    height: 450px;
-    background: -webkit-linear-gradient(left, rgb(81, 214, 255), rgb(0, 80, 255));
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#heads {
+    height: 600px;
+    background: -webkit-linear-gradient(left, rgb(81, 214, 255), rgb(30, 100, 250));
     /* Safari 5.1 - 6.0 */
-    background: -o-linear-gradient(right, rgb(81, 214, 255), rgb(0, 80, 255));
+    background: -o-linear-gradient(right, rgb(81, 214, 255), rgb(30, 100, 250));
     /* Opera 11.1 - 12.0 */
-    background: -moz-linear-gradient(right, rgb(81, 214, 255), rgb(0, 80, 255));
+    background: -moz-linear-gradient(right, rgb(81, 214, 255), rgb(30, 100, 250));
     /* Firefox 3.6 - 15 */
-    background: linear-gradient(to right, rgb(81, 214, 255), rgb(0, 80, 255));
+    background: linear-gradient(to right, rgb(81, 214, 255), rgb(30, 100, 250));
 }
 
 header {
@@ -27,13 +33,24 @@ header {
 h1 {
     line-height: 450px;
     color: white;
-    font-size: 50px;
+    font-size: 3em;
 }
 
 h2 {
     color: burlywood;
-    font-size: 35px;
+    font-size: 2em;
 }
+
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    margin:0; 
+    padding:0;
+}
+
 
 div {
     background-color: white;
@@ -55,4 +72,13 @@ div {
     padding: 20px 0;
     border-top: 1px solid #e7eaf1;
     text-align: center
+}
+
+a:link {color:#000000;}  
+a:visited {color:#00FF00;}  
+a:hover {color:#FF00FF;}  
+a:active {color:#0000FF;}
+
+::selection{
+    background-color: rgba(0,147,254,.2);
 }
