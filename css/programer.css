@@ -3,7 +3,7 @@
  * @Author: Dengxz
  * @LastEditors: Dengxz
  * @Date: 2019-04-26 18:55:02
- * @LastEditTime: 2019-04-30 09:38:41
+ * @LastEditTime: 2019-05-01 02:40:34
  */
 
 * {
@@ -13,26 +13,26 @@
 
 html {
     width: 100%;
-    height: 200%;
+    height: 150%;
 }
 
 body {
     width: 100%;
-    height: 200%;
+    height: 150%;
     text-align: center;
     background-color: rgb(246, 246, 246);
 }
 
 .header {
     width: 100%;
-    height: 14%;
+    height: 10%;
     background: -webkit-linear-gradient(left, rgb(81, 214, 255), rgb(30, 100, 250));
 }
 
 .main {
+    /*float: left;*/
     width: 100%;
-    height: 85%;
-    position: relative;
+    height: 90%;
     background-color: rgb(246, 248，250);
 }
 
@@ -84,4 +84,22 @@ body {
 }
 #last_button{
     border-bottom-right-radius: 30px;
+}
+.canvas_main{
+    float: left;
+    width: 60%;
+    height: 100%;
+
+}
+
+.code_main{
+    float: right;
+    width: 39.8%;
+    height: 100%;
+}
+.interval{
+    background-color: black;
+    float: left;
+    height: 100%;
+    width:0.2%;
 }
