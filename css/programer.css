@@ -3,8 +3,14 @@
  * @Author: Dengxz
  * @LastEditors: Dengxz
  * @Date: 2019-04-26 18:55:02
- * @LastEditTime: 2019-04-29 22:16:25
+ * @LastEditTime: 2019-04-30 09:38:41
  */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
 html {
     width: 100%;
     height: 200%;
@@ -27,6 +33,7 @@ body {
     width: 100%;
     height: 85%;
     position: relative;
+    background-color: rgb(246, 248，250);
 }
 
 .menu {
@@ -41,35 +48,40 @@ body {
 .menu_button_even {
     height: 150px;
     background-color: rgb(250, 250, 250);
-
 }
 
 .menu_button_odd {
     height: 150px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(225, 230, 230);
 
 }
 
 .menu_apron {
+    
     margin-left: 10%;
     width: 200px;
     height: 2px;
     background-color: rgb(233, 233, 233);
 }
 
-* {
-    margin: 0;
-    padding: 0;
-}
+
 .di_float {
     width: 100px;
     height: 600px;
     border: 2px solid #f00;
-    border-radius: 20%;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
     position: fixed;
     left: 0;
     top: 300px;
     background: #DBEAF9;
-	visibility: visible;
+    visibility: visible;
 
+}
+
+#first_button{
+    border-top-right-radius: 30px;
+}
+#last_button{
+    border-bottom-right-radius: 30px;
 }
