@@ -3,7 +3,7 @@
  * @Author: Dengxz
  * @LastEditors: Dengxz
  * @Date: 2019-04-26 18:55:02
- * @LastEditTime: 2019-05-01 02:40:34
+ * @LastEditTime: 2019-05-01 23:11:15
  */
 
 * {
@@ -73,7 +73,7 @@ body {
     border-bottom-right-radius: 30px;
     position: fixed;
     left: 0;
-    top: 300px;
+    top: 20%;
     background: #DBEAF9;
     visibility: visible;
 
