@@ -61,8 +61,8 @@ div {
     border-image-source: radial-gradient(white, rgb(58, 58, 58));
     border-image-slice: 1;
     border-image-width: 1;
-    height: 450px;
-    width: 800px;
+    height: 600px;
+    width: 60%;
     position:relative;left:20%;
     font-size: 25px;
 }
