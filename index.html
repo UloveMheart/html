@@ -1,11 +1,3 @@
-<!--
- * @Description: index
- * @Author: Dengxz
- * @Date: 2019-01-25 00:08:54
- * @LastEditors: Dengxz
- * @LastEditTime: 2019-04-28 11:22:23
- -->
-
 <!DOCTYPE html>
 <html>
 
@@ -13,41 +5,69 @@
     <meta charset="utf-8">
     <title>dengxz's page</title>
     <meta name="author" content="Dengxz">
+    <meta name="viewport"content="width=device-width, initial-scale=1.0"></metaname>
     <meta property="og:title" content="Dengxz's page">
     <meta property="og:type" content="website">
-    <link rel="stylesheet" type="text/css" href="./css/index.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
 </head>
-    
-<body>
-    <div id="heads"> 
-            <h1>Welcome to Dengxz's Page </h1>
+
+<body id="ttt">
+    <div id="heads">
+        <img id="avatar" src="./images/avatar.jpg" alt="there should be a photo">
+        <p id="names">Dengxz's website</p>
+        <div class="navigations"> 
+            <div class="navigation is-active">
+                <a href="./index.html">
+                    <p style="color: #1468ee">Home</p>
+                </a>
+            </div>
+            <div class="navigation">
+                <a href="./html/about.html">
+                    <p>About</p>
+                </a>
+            </div>
+            <div class="navigation">
+                <a href="./html/gallery.html">
+                    <p>Gallery</p>
+                </a>
+            </div>
+            <div class="navigation">
+                <a href="./html/resume.html">
+                    <p>Resume</p>
+                </a>
+            </div>
+            <div class="navigation">
+                <a href="./html/contact.html">
+                    <p>Contact</p>
+                </a>
+            </div>
+            <div class="navigation">
+                <a href="./html/link.html">
+                    <p>Link</p>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div id="bods" style="text-align: center; box-shadow: 0px 2px 14px 0px #e4e4e4;border-radius: 25px;top: 200px;">
+        <h1>Welcome to Dengxz's page</h1>
+        <div id="index_name" style="font-size: 20px">My name is Deng Xiangzhi</div>
+        <span id="index_expect1" style="font-size: 20px">The thing you expect:&emsp;</span>
+        <span id="index_expect2" style="font-size: 25px">my colorful life, my selfie</span>
+        <!-- <div id="index_expect" style="font-size: 20px">The thing you expect: my colorful life, my selfie</div> -->
+        <div id="index_none">There are none of these</div>
+        <div id="index_but">But!!!</div>
+        <div id="index_there" style="position: relative;top: -80px;font-size: 25px">
+            There are&thinsp;<a style="font-size: 30px;color: rgb(170, 132, 118);" href="./html/gallery.html">beautiful photo</a>,<br />and my&thinsp;<a style="font-size: 30px;color: rgb(170, 132, 118);" href="./html/resume.html">program experence</a> 
+        </div>
     </div>
     
-    <!-- <div style="background-color:aquamarine;font-size: 25px;height: 35px;">
-        <a href="./study.html" style="position:absolute; left:33%">click!</a>
-        <a href="./test.html" style="position:absolute; left:66%">click!</a>
-    </div> -->
-    <div style="font-family:verdana;padding:20px;border-radius:10px;border:10px double #EE872A;">
-        <div style="letter-spacing:12px;">Welcome to Dengxz's Page</div>
-        <div style="color:#000000;">Hello</div>
-    </div>
-    <br>
-    <div class="note">
-        <a href="./note1.html">
-            <p>note1</p>
-        </a>
-    </div>
-    <br>
-    <div class="note">
-        <a href="./programer.html">
-            <p>programer</p>
-        </a>
-    </div>
-    <br><br><br>
-    <div style="height:35px;background-color:rgb(241, 77, 77);font-size: 25px;clear: both;">
-        <p><b>人要有底线</b></p>
-    </div>
-    
+    <script src="./js/index.js"></script>
+    <footer style="font-family: 'Ubuntu', 'Roboto' , 'Open Sans' , 'Microsoft YaHei' , sans-serif; font-size: 12px;position: relative;
+        margin-left: 25%;top: 27%;color:darkgray">
+        © 2019 Dengxz
+    </footer>
+    <a href="#ttt" id="jump">Top</a>
 </body>
+<script src="./js/suit.js"></script>
 
 </html>
